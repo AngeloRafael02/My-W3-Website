@@ -1,0 +1,15 @@
+HTML
+    - Create Article Content
+    - Contacts
+        - Email
+        - Cellphone Number
+        - Facebook
+        - Instagram
+        - LinkedIn
+        - Github
+CSS
+    - Theme: Minimalist-Futuristic
+    - Color Pallet: (https://www.color-hex.com/color-palette/61235)
+        - #091833,	#711c91,	#ea00d9 #133e7c, #0abdc6
+    - Display Projects as Carousel with Bootstrap (https://getbootstrap.com/docs/4.0/components/carousel/)
+    - Implement Parallax Effect per <section>
