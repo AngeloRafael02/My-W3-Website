@@ -1,0 +1,47 @@
+
+p,h1,h2,h3 {
+    color: white;
+}
+a:hover{
+    color: white;
+}
+
+header,footer{
+    background-color: #22272c;
+}
+  aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+  }
+#Home{
+    background-image: url('Assets/wp4673203.jpg');
+    height: 500px;
+    text-align: center;
+    padding: 175px 0;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#About{
+    padding: 25px 0;
+    height: 400px;
+    background-color: #22272c;
+}
+#Projects{
+    background-image: url('Assets/pexels-eberhardgross-2098428.jpg');
+    height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
