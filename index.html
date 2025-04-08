@@ -8,13 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" integrity="sha384-/rJKQnzOkEo+daG0jMjU1IwwY9unxt1NBw3Ef2fmOJ3PW/TfAg2KXVoWwMZQZtw9" crossorigin="anonymous">
-    <link href="https://www.w3schools.com/w3css/5/w3.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Angelo Rafael Recio</title>
 </head>
 <body>
     <header>
-       
         <nav id="headerNav" class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#Home"><img src="" alt="Angelo Rafael Recio"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,35 +42,80 @@
 
     <section id="About">
         <article class="row">
-            <div>
-                <h3>About Me</h3>
+            <div class="col-lg-8">
+                <h3 data-aos="fade-down" data-aos-duration="2000">About Me</h3>
                   <aside>
                     <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
                   </aside>
                   
-                  <p>
-                    I'm a Computer Engineering Graduate at <a href="https://ub.edu.ph/ublc/">University of Batangas Lipa Campus</a> that has been interested in Software Development and approaches challenges with curiosity and a problem-solving mindset. As a Full-Stack Developer, I have Experiences in both Front-End and Back-End Technologies ang also experiences in Multiple Languages such as JavaScript, Python, VBScript, and PHP. While I have Proffesional exposure to as a Software Developer, I also have Interest in other fields in IT <br>
-                    For Example, I also have Interest in Operating Systems. I have used <a href="https://ubuntu.com/" target="_blank">Ubuntu</a>, <a href="https://www.debian.org/" target="_blank">Debian</a>, <a href="https://manjaro.org/" target="_blank">Manjaro</a>, and now I'm using <a href="https://archlinux.org/" target="_blank">Arch</a> on my Desktop. I also have experiences in University on Machine Vision via using MatLab and <a href="https://docs.ultralytics.com/">YOLO</a> Models with the latter being the base model for my final thesis/project for the University which can be seen in a repo on this <a href="https://github.com/AngeloRafael02/SmartSafety" target="_blank">link.</a><br>
-                    As of now, I intend to learn more technologies as I continue with my Proffesion. I would like to learn stuff like IoT, Embedded Systems, Computer Networking, and Cloud Technologies. <br>
+                  <p data-aos="fade-right" data-aos-duration="3000" style="text-align: justify;">
+                    I'm a Computer Engineering Graduate at <a href="https://ub.edu.ph/ublc/">University of Batangas Lipa Campus</a> that has been interested in Software Development and approaches challenges with curiosity and a problem-solving mindset. As a Full-Stack Developer, I have Experiences in both Front-End and Back-End Technologies ang also experiences in Multiple Languages such as JavaScript, Python, VBScript, and PHP. While I have Proffesional exposure to as a Software Developer, I also have Interest in other fields in IT <br><br>
+                    For Example, I also have Interest in Operating Systems. I have used <a href="https://ubuntu.com/" target="_blank">Ubuntu</a>, <a href="https://www.debian.org/" target="_blank">Debian</a>, <a href="https://manjaro.org/" target="_blank">Manjaro</a>, and now I'm using <a href="https://archlinux.org/" target="_blank">Arch</a> on my Desktop. I also have experiences in University on Machine Vision via using MatLab and <a href="https://docs.ultralytics.com/">YOLO</a> Models with the latter being the base model for my final thesis/project for the University which can be seen in a repo on this <a href="https://github.com/AngeloRafael02/SmartSafety" target="_blank">link.</a><br><br>
+                    As of now, I intend to learn more technologies as I continue with my Proffesion. I would like to learn stuff like IoT, Embedded Systems, Computer Networking, and Cloud Technologies. <br><br>
                     I also have a <a href="https://www.w3profile.com/AngeloRafaelRecio?fbclid=IwZXh0bgNhZW0CMTEAAR7iDMmPDewVL2sgkWvLjRRRUsx3Kk7S96bSOiPZygAyh_g7BbtTP1rjGUamHg_aem_jI60EA1Uo4fglKkAmQJU-w" target="_blank">W3 Profile</a>, come check it out!
                 </p>
             </div>
-            <div>
+            <div class="col-lg-4">
                 <img src="" alt="Angelo Rafael Recio on a desk">
             </div>
         </article>
-        <figure data-aos="fade-up">
-            <blockquote cite="https://www.impactnetwork.org/latest-news/there-is-no-end-to-education">
-                <p>There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning.</p>
-            </blockquote>
-            <figcaption>
-                <p>Jiddu Krishnamurti</p>
-            </figcaption>
+        <figure data-aos="fade-up" class="row">
+            <div class="col-lg-12">
+                <blockquote cite="https://www.impactnetwork.org/latest-news/there-is-no-end-to-education">
+                    <p>There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning.</p>
+                </blockquote>
+                <figcaption>
+                    <p>Jiddu Krishnamurti</p>
+                </figcaption>
+            </div>
         </figure>
     </section>
 
     <section id="Projects">
         <h3>Projects</h3>
+        
+        <div id="carouselWrapper" class="d-flex justify-content-center">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Assets/wp4673203.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>SmartSafety</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/photo-1521489871110-81dc5a61dbda.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>TheoTown Plug-In</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/wp4673203.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Discord Bot</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
+        
     </section>
 
     <footer>
@@ -89,17 +132,19 @@
                 </li>
             </ul>
         </nav>
+        <br>
         <div id="Contact">
-            <h3>Contact Me!</h3><br>
-            <p>Email: recioangelorafael@gmail.com <br>
-            Contact No: (+63) 9255224380</p> <br>
-            <a target="_blank" href="https://www.facebook.com/angelorafael.recio.5"><img src="Assets/facebook.svg" alt="Angelo's Facebook"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/angelo-rafael-recio-95a02a1a5/"><img src="Assets/linkedin.svg" alt="Angelo's LinkedIn"></a>
-            <a target="_blank" href="https://github.com/AngeloRafael02"><img src="Assets/github.svg" alt="Angelo's GitHub"></a>
+            <h3>Contact Me!</h3> 
+            <p>Email: recioangelorafael@gmail.com</p>
+            <p>Contact No: (+63) 9255224380</p>
+            <div id="socMedGroup">
+                <a target="_blank" href="https://www.facebook.com/angelorafael.recio.5"><img class="socMed"  src="Assets/facebook.svg" alt="Angelo's Facebook"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/angelo-rafael-recio-95a02a1a5/"><img class="socMed"  src="Assets/linkedin.svg" alt="Angelo's LinkedIn"></a>
+                <a target="_blank" href="https://github.com/AngeloRafael02"><img class="socMed"  src="Assets/github.svg" alt="Angelo's GitHub"></a>
+            </div>
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" integrity="sha384-wziAfh6b/qT+3LrqebF9WeK4+J5sehS6FA10J1t3a866kJ/fvU5UwofWnQyzLtwu" crossorigin="anonymous"></script>
     <script>

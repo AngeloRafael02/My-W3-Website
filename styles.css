@@ -1,4 +1,6 @@
-
+html{
+    background-color:  #22272c;
+}   
 p,h1,h2,h3 {
     color: white;
 }
@@ -32,7 +34,7 @@ header,footer{
 }
 #About{
     padding: 25px 0;
-    height: 400px;
+    /*height: 400px;*/
     background-color: #22272c;
 }
 #Projects{
@@ -44,4 +46,29 @@ header,footer{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#carouselWrapper{
+    width: 100%;
+}
+#carouselExampleCaptions{
+    width: 75%;
+}
+footer{
+    height: 300px;
+}
+#Contact {
+    flex-direction:column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.nav-link {
+    color:white;
+}
+.nav-link:hover {
+    color:white;
+}
+.socMed{
+    width: 35px;
 }
