@@ -36,8 +36,8 @@ header,footer{
     background-color: #22272c;
 }
 #Projects{
-    background-image: url('Assets/pexels-eberhardgross-2098428.jpg');
-    height: 800px;
+    background-image: url('Assets/photo-1521489871110-81dc5a61dbda.jpg');
+    height: 650px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
