@@ -1,31 +1,25 @@
 html{
     background-color:  #22272c;
 }   
-p,h1,h2,h3 {
+p,h1,h2,h3,h4 {
     color: white;
 }
-a {
+a,a:hover,a:visited {
     color:white
 }
-a:hover{
-    color: white;
-}
-
 header,footer{
-    background-color: #22272c;
+    height: auto;
+    background: #22272C;
+    background: linear-gradient(180deg,rgba(34, 39, 44, 1) 0%, rgba(42, 65, 88, 1) 50%, rgba(89, 115, 135, 1) 100%);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-  aside {
-    width: 40%;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-  }
 #Home{
     background-image: url('Assets/wp4673203.jpg');
-    height: 500px;
+    height: auto;
     text-align: center;
     padding: 175px 0;
 
@@ -37,12 +31,39 @@ header,footer{
 }
 #About{
     padding: 25px 0;
-    /*height: 400px;*/
-    background-color: #22272c;
+    height: auto;
+    background: #22272C;
+    background: linear-gradient(180deg,rgba(34, 39, 44, 1) 0%, rgba(42, 65, 88, 1) 50%, rgba(89, 115, 135, 1) 100%);
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#aboutCard{
+    color:white
+}
+.minimal-quote-container {
+    margin-top: 1rem; /* Adjust spacing as needed */
+}
+.minimal-blockquote {
+    border-left: 3px solid white; /* Subtle indicator */
+    padding-left: 1.5rem;
+}
+.minimal-quote-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: white; /* Darker text for readability */
+}
+.minimal-quote-author {
+    font-size: 1rem;
+    color: white; /* Lighter text for attribution */
+    text-align: center;
 }
 #Projects{
     background-image: url('Assets/photo-1521489871110-81dc5a61dbda.jpg');
-    height: 650px;
+    height: auto;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -56,9 +77,6 @@ header,footer{
 #carouselExampleCaptions{
     width: 75%;
 }
-footer{
-    height: 300px;
-}
 #Contact {
     flex-direction:column;
     display: flex;
@@ -66,10 +84,7 @@ footer{
     align-items: center;
     height: 200px;
 }
-.nav-link {
-    color:white;
-}
-.nav-link:hover {
+.nav-link,.nav-link:hover, .nav-link:visited {
     color:white;
 }
 .socMed{
