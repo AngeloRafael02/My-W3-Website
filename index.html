@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta property='og:title' content="Angelo Rafael Recio's Website"/>
-    <meta name="description" content="Angelo Rafael Recio's W3 Website">
+    <meta property='og:image' content='https://i.ibb.co/6RRx1gX8/SCREENSHOT.png'/>
+    <meta property='og:description' content="My W3 Website created in W3 as a bit of introduction about my career. It is mostly made of HTML,CSS, and a bit of Bootsrrap 5"/>
+    <meta property='og:url' content='https://recio-angelo-rafael.w3spaces.com/'/>
+    <meta property='og:image:width' content='1358'/>
+    <meta property='og:image:height' content='595'/>
+    <meta property="og:type" content='website'/>
+    <meta name="description" content="My W3 Website created in W3 as a bit of introduction about my career. It is mostly made of HTML,CSS, and a bit of Bootsrrap 5"/>
     <meta name="keywords" content="HTML, CSS, JavaScript, Developer">
     <meta name="author" content="Angelo Rafael F. Recio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,18 +44,21 @@
     <section id="Home">
             <h1 data-aos="fade-down">Welcome To My Landing Page</h1>
             <br>
+            <a class="btn btn-dark" data-aos="fade-up" href="#Projects">My Projects</a>
             <a class="btn btn-dark" data-aos="fade-up" href="#Contact">Contact Me</a>
     </section>
 
     <section id="About">
-        <article class="row">
+        <article itemscope itemtype="https://schema.org/Person" class="row">
+            <meta itemprop="datePublished" content="2025-04-19"> 
+            <meta itemprop="dateModified" content="2025-04-19"> 
             <div class="col-lg-8">
                 <h3 class="p-3" data-aos="fade-down" data-aos-duration="1000">About Me</h3>                  
                   <p class="p-3" data-aos="fade-right" data-aos-duration="1000" style="text-align: justify; text-indent: 50px;">
-                    I'm a Computer Engineering Graduate at <a href="https://ub.edu.ph/ublc/" data-bs-toggle="tooltip" data-bs-placement="top" title="University of Batangas, Lipa Campus" rel="noopener noreferrer">UBLC</a> that has been interested in Software Development and approaches challenges with curiosity and a problem-solving mindset. As a Full-Stack Developer, I have Experiences in both Front-End and Back-End Technologies ang also experiences in Multiple Languages such as JavaScript, Python, VBScript, and PHP. While I have Proffesional exposure to as a Software Developer, I also have Interest in other fields in IT <br><br>
+                    My name is <span itemprop="name">Angelo Rafael F. Recio</span>. I'm a Computer Engineering Graduate at <a href="https://ub.edu.ph/ublc/" data-bs-toggle="tooltip" data-bs-placement="top" title="University of Batangas, Lipa Campus" rel="noopener noreferrer" itemprop="alumniOf">UBLC</a> that has been interested in Software Development and approaches challenges with curiosity and a problem-solving mindset. As a Full-Stack Developer, I have Experiences in both Front-End and Back-End Technologies ang also experiences in Multiple Languages such as <span itemprop="knowsLanguage">JavaScript, Python, VBScript, and PHP</span>>. While I have Proffesional exposure to as a Software Developer, I also have Interest in other fields in IT <br><br>
                     For Example, I also have Interest in Operating Systems. I have used <a href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer">Ubuntu</a>, <a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">Debian</a>, <a href="https://manjaro.org/" target="_blank" rel="noopener noreferrer">Manjaro</a>, and now I'm using <a href="https://archlinux.org/" target="_blank" rel="noopener noreferrer">Arch</a> on my Desktop. I also have experiences in University on Machine Vision via using MatLab and <a href="https://docs.ultralytics.com/" data-bs-toggle="tooltip" data-bs-placement="top" title="You Only Look Once model" rel="noopener noreferrer">YOLO</a> Models with the latter being the base model for my final thesis/project for the University which can be seen in a repo on this <a href="https://github.com/AngeloRafael02/SmartSafety" target="_blank" rel="noopener noreferrer">link.</a><br><br>
-                    As of now, I intend to learn more technologies as I continue with my Proffesion. I would like to learn stuff like IoT, Embedded Systems, Computer Networking, and Cloud Technologies. <br><br>
-                    I learned the basics of programming mostly from my time in University as well as being exposed in Sololearn, a free coding app. This <a href="https://www.sololearn.com/en/profile/16349734" target="_blank" rel="noopener noreferrer">link</a> is my account on Solelearn.<br><br>
+                    As of now, I intend to learn more technologies as I continue with my Proffesion. I would like to learn stuff like <span itemprop="interest">IoT, Embedded Systems, Computer Networking, and Cloud Technologies</span>. <br><br>
+                    I learned the basics of programming mostly from my time in University as well as being exposed in Sololearn, a free coding app. This <a href="https://www.sololearn.com/en/profile/16349734" target="_blank" rel="noopener noreferrer">link</a> is my account on Sololearn.<br><br>
                     I am also have an account on <a href="https://leetcode.com/u/AngeloRafael02/" target="_blank" rel="noopener noreferrer">Leetcode</a> and I am still a bit new to it. I would love to prcatice my skills more on it <br><br>
                     I also have a <a href="https://www.w3profile.com/AngeloRafaelRecio?fbclid=IwZXh0bgNhZW0CMTEAAR7iDMmPDewVL2sgkWvLjRRRUsx3Kk7S96bSOiPZygAyh_g7BbtTP1rjGUamHg_aem_jI60EA1Uo4fglKkAmQJU-w" target="_blank" rel="noopener noreferrer">W3 Profile</a>, come check it out!
                 </p>
@@ -57,8 +66,8 @@
             <div class="col-lg-4">
               <br><br>
               <div class="card bg-dark" style="width:400px" data-aos="fade-left">
-                
-                <img class="card-img-top" id="aboutCard"  src="Assets/480694669_1298864944709906_7606210913760783725_n.jpg" alt="Angelo Rafael Recio on a desk" style="width:100%">
+
+                <img class="card-img-top" id="aboutCard" src="Assets/480694669_1298864944709906_7606210913760783725_n.jpg" alt="Angelo Rafael Recio on a desk" itemprop="image" style="width:100%">
                 <div class="card-body">
                   <h4 class="card-title">Angelo Rafael F. Recio</h4>
                   <p class="card-text">This is one of my better photo during a Graduation Photography Session</p>
@@ -149,10 +158,11 @@
         <br>
         <div id="Contact">
             <h3>Contact Me!</h3> 
-            <p>Email: recioangelorafael@gmail.com</p>
+            <p itemprop="email">Email: recioangelorafael@gmail.com</p>
             <p>Contact No: (+63) 9255224380</p>
             <div id="socMedGroup">
-                <a target="_blank" href="https://www.facebook.com/angelorafael.recio.5" rel="noopener noreferrer"><img class="socMed"  src="Assets/facebook.svg" alt="Angelo's Facebook"></a>
+                <a target="_blank" href="https://g.dev/angelorafael02" rel="noopener noreferrer"><img class="socMed" src="Assets/google.svg" alt="Angelo's Google Dev"></a>
+                <a target="_blank" href="https://www.facebook.com/angelorafael.recio.5" rel="noopener noreferrer"><img class="socMed" src="Assets/facebook.svg" alt="Angelo's Facebook"></a>
                 <a target="_blank" href="https://www.linkedin.com/in/angelo-rafael-recio-95a02a1a5/" rel="noopener noreferrer"><img class="socMed"  src="Assets/linkedin.svg" alt="Angelo's LinkedIn"></a>
                 <a target="_blank" href="https://github.com/AngeloRafael02" rel="noopener noreferrer"><img class="socMed"  src="Assets/github.svg" alt="Angelo's GitHub"></a>
             </div>
