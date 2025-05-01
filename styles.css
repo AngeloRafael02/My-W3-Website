@@ -11,38 +11,32 @@ header,footer{
     height: auto;
     background: #22272C;
     background: linear-gradient(180deg,rgba(34, 39, 44, 1) 0%, rgba(42, 65, 88, 1) 50%, rgba(89, 115, 135, 1) 100%);
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #Home{
     background-image: url('Assets/wp4673203.jpg');
     height: auto;
     text-align: center;
     padding: 175px 0;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-#About{
+#About,#Skills{
     padding: 25px 0;
     height: auto;
     background: #22272C;
     background: linear-gradient(180deg,rgba(34, 39, 44, 1) 0%, rgba(42, 65, 88, 1) 50%, rgba(89, 115, 135, 1) 100%);
-    
+
+}
+#Quote{
+    background-image: url('Assets/wallpapersden.com_photography-landscape-hd-dark-night_1920x1080.jpg');
+}
+#aboutCard{
+    color:white
+}
+.parallax{
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-#aboutCard{
-    color:white
 }
 .minimal-quote-container {
     margin-top: 1rem; /* Adjust spacing as needed */
@@ -62,14 +56,9 @@ header,footer{
     text-align: center;
 }
 #Projects{
+    padding: 25px 0;
     background-image: url('Assets/photo-1521489871110-81dc5a61dbda.jpg');
     height: auto;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #carouselWrapper{
     width: 100%;
