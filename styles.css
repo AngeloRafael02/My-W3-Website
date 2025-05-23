@@ -79,3 +79,9 @@ header,footer{
 .socMed{
     width: 35px;
 }
+li::marker {
+  color: white;
+}
+.projectPhoto{
+    max-height: 1080px;
+}
