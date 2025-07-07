@@ -66,6 +66,11 @@ header,footer{
 #carouselExampleCaptions{
     width: 75%;
 }
+.carousel-inner .carousel-item img {
+    height: 500px; /* Or whatever fixed height you desire */
+    object-fit: cover;
+    width: 100%; /* Ensure the image takes full width of its container */
+}
 #Contact {
     flex-direction:column;
     display: flex;
