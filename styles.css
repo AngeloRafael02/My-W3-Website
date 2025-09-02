@@ -75,7 +75,12 @@ header,footer{
     text-decoration: none; /* Remove underline from the link */
     color: inherit; /* Inherit text color */
 }
-.blog-thumbnail:hover {
+.shield{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+.blog-thumbnail:hover, .shield:hover{
     transform: translateY(-5px); /* Lift effect on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
